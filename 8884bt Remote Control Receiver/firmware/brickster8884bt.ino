@@ -40,17 +40,17 @@
 #define uSecCyc 870
 
 // Motor control A
-#define mcPin1A 10
-#define mcPin2A 9
-#define pwmPinA 8
+#define mcPin1A 1
+#define mcPin2A 2
+#define pwmPinA 3
 #define maxA 7
 int levelA = 0;
 int pwmA = 0;
 
 // Motor control B
 #define mcPin1B 0
-#define mcPin2B 1
-#define pwmPinB 3
+#define mcPin2B 8
+#define pwmPinB 7
 #define maxB 7
 int levelB = 0;
 int pwmB = 0;
@@ -76,8 +76,8 @@ int pwmB = 0;
 // Combine Channel A command with Channel B command using logical OR
 
 // Software serial
-#define rxPin 7
-#define txPin 2
+#define rxPin 10
+#define txPin 9
 #define baudRate 9600
 SoftwareSerial softSerial(rxPin, txPin);
 
@@ -98,11 +98,17 @@ void setup()
   pinMode(mcPin1A, OUTPUT);
   pinMode(mcPin2A, OUTPUT);
   pinMode(pwmPinA, OUTPUT);
+  digitalWrite(mcPin1A, LOW);
+  digitalWrite(mcPin2A, LOW);
+  digitalWrite(pwmPinA, LOW);
   
   // channel B init
   pinMode(mcPin1B, OUTPUT);
   pinMode(mcPin2B, OUTPUT);
   pinMode(pwmPinB, OUTPUT);
+  digitalWrite(mcPin1B, LOW);
+  digitalWrite(mcPin2B, LOW);
+  digitalWrite(pwmPinB, LOW);
   
   // bitbanged PWM init
   pwmA = pwmLevels[min(abs(levelA), maxA)];
