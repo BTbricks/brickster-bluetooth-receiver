@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -235,10 +235,10 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <text x="0" y="-1" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="CHIP-LTST">
-<smd name="1" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="2" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="3" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="4" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="1" x="0.44" y="0.725" dx="0.6" dy="0.85" layer="1"/>
+<smd name="2" x="-0.44" y="0.725" dx="0.6" dy="0.85" layer="1"/>
+<smd name="3" x="0.44" y="-0.725" dx="0.6" dy="0.85" layer="1"/>
+<smd name="4" x="-0.44" y="-0.725" dx="0.6" dy="0.85" layer="1"/>
 <wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.1" layer="21"/>
 <wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.1" layer="21"/>
 <wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.1" layer="21"/>
@@ -282,10 +282,13 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <text x="3.5" y="0" size="0.6096" layer="25" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
 <package name="CON_PF">
-<pad name="9V" x="-2.25" y="0" drill="0.7" shape="square"/>
+<pad name="9V" x="-2.25" y="0" drill="0.7" shape="octagon"/>
 <pad name="C2" x="-0.75" y="0" drill="0.7"/>
 <pad name="C1" x="0.75" y="0" drill="0.7"/>
-<pad name="GND" x="2.25" y="0" drill="0.7"/>
+<pad name="GND" x="2.25" y="0" drill="0.7" shape="square"/>
+<wire x1="-3.81" y1="0" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="0.3175" x2="-3.4925" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="POLOLU_DRV8833">
 <pad name="GND1" x="-5.08" y="8.89" drill="0.8" shape="square"/>
@@ -348,6 +351,36 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <wire x1="-2" y1="-1.6" x2="-1.8" y2="-1.6" width="0.1" layer="21" curve="180"/>
 <wire x1="1.8" y1="-1.7" x2="2" y2="-1.7" width="0.1" layer="21" curve="-180"/>
 <wire x1="2" y1="-1.7" x2="2.2" y2="-1.7" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="PWP_R-PDSO-G16">
+<smd name="1" x="-2.275" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="2" x="-1.625" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="3" x="-0.975" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="4" x="-0.325" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="0.325" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="0.975" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="1.625" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="2.275" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="2.275" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="10" x="1.625" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="11" x="0.975" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="12" x="0.325" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="13" x="-0.325" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="14" x="-0.975" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="15" x="-1.625" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="16" x="-2.275" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="17" x="0" y="0" dx="2.26" dy="2.03" layer="1" rot="R90" thermals="no"/>
+<wire x1="-2.4" y1="2.125" x2="-2.4" y2="2.025" width="0" layer="16"/>
+<wire x1="-2.55" y1="2.25" x2="-2.55" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-0.635" x2="-2.55" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-2.25" x2="2.55" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-2.25" x2="2.55" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.55" y1="2.25" x2="-2.55" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-0.635" x2="-2.55" y2="0.635" width="0.127" layer="21" curve="180"/>
+<circle x="-1.915" y="-1.615" radius="0.3175" width="0.127" layer="21"/>
+<text x="-3.175" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.175" y="0" size="1.27" layer="21" rot="R90" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.115" y1="-1.23" x2="1.115" y2="1.23" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -754,6 +787,30 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <wire x1="7.62" y1="0" x2="12.7" y2="0" width="0.1651" layer="94"/>
 <text x="-8.89" y="16.51" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="IC_DRV8833">
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="NSLEEP" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="AOUT1" x="-17.78" y="2.54" length="middle"/>
+<pin name="AISEN" x="-17.78" y="-2.54" length="middle"/>
+<pin name="AOUT2" x="-17.78" y="0" length="middle"/>
+<pin name="BOUT2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="BISEN" x="-17.78" y="-12.7" length="middle"/>
+<pin name="BOUT1" x="-17.78" y="-10.16" length="middle"/>
+<pin name="NFAULT" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="BIN1" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="BIN2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="VCP" x="-17.78" y="7.62" length="middle"/>
+<pin name="VM" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="VINT" x="-17.78" y="10.16" length="middle"/>
+<pin name="AIN2" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="AIN1" x="17.78" y="2.54" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IC_ATTINY_X4A" prefix="IC">
@@ -1041,6 +1098,36 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <connect gate="G$1" pin="P1G" pad="P$8"/>
 <connect gate="G$1" pin="P1S/P2S" pad="P$7"/>
 <connect gate="G$1" pin="P2G" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_DRV8833">
+<gates>
+<gate name="G$1" symbol="IC_DRV8833" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PWP_R-PDSO-G16">
+<connects>
+<connect gate="G$1" pin="AIN1" pad="16"/>
+<connect gate="G$1" pin="AIN2" pad="15"/>
+<connect gate="G$1" pin="AISEN" pad="3"/>
+<connect gate="G$1" pin="AOUT1" pad="2"/>
+<connect gate="G$1" pin="AOUT2" pad="4"/>
+<connect gate="G$1" pin="BIN1" pad="9"/>
+<connect gate="G$1" pin="BIN2" pad="10"/>
+<connect gate="G$1" pin="BISEN" pad="6"/>
+<connect gate="G$1" pin="BOUT1" pad="7"/>
+<connect gate="G$1" pin="BOUT2" pad="5"/>
+<connect gate="G$1" pin="GND" pad="13 17"/>
+<connect gate="G$1" pin="NFAULT" pad="8"/>
+<connect gate="G$1" pin="NSLEEP" pad="1"/>
+<connect gate="G$1" pin="VCP" pad="11"/>
+<connect gate="G$1" pin="VINT" pad="14"/>
+<connect gate="G$1" pin="VM" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>

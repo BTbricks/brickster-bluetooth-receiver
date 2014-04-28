@@ -4338,40 +4338,6 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <text x="0" y="4.5" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.5" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SSOP24">
-<wire x1="-4.25" y1="2.5" x2="4.25" y2="2.5" width="0.1" layer="21"/>
-<wire x1="4.25" y1="2.5" x2="4.25" y2="-2.5" width="0.1" layer="21"/>
-<wire x1="4.25" y1="-2.5" x2="-4.25" y2="-2.5" width="0.1" layer="21"/>
-<wire x1="-4.25" y1="-2.5" x2="-4.25" y2="-0.5" width="0.1" layer="21"/>
-<smd name="24" x="-3.575" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="23" x="-2.925" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="22" x="-2.275" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="20" x="-0.975" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="21" x="-1.625" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="19" x="-0.325" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="18" x="0.325" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="17" x="0.975" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="16" x="1.625" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="15" x="2.275" y="3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="1" x="-3.575" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="2" x="-2.925" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="3" x="-2.275" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="4" x="-1.625" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="5" x="-0.975" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="6" x="-0.325" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="7" x="0.325" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="8" x="0.975" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="9" x="1.625" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="10" x="2.275" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="11" x="2.925" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="12" x="3.575" y="-3.856" dx="0.348" dy="1.397" layer="1"/>
-<smd name="13" x="3.575" y="3.856" dx="0.348" dy="1.397" layer="1" rot="R180"/>
-<smd name="14" x="2.925" y="3.856" dx="0.348" dy="1.397" layer="1" rot="R180"/>
-<text x="-4.5" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="4.5" y="0" size="0.6096" layer="25" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-4.25" y1="0.5" x2="-4.25" y2="2.5" width="0.1" layer="21"/>
-<wire x1="-4.25" y1="-0.5" x2="-4.25" y2="0.5" width="0.1" layer="21" curve="180"/>
-</package>
 <package name="MBS-2">
 <smd name="+" x="1.3" y="3.3" dx="0.8" dy="1.2" layer="1"/>
 <smd name="-" x="-1.3" y="3.3" dx="0.8" dy="1.2" layer="1"/>
@@ -4417,10 +4383,10 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <text x="0" y="-1" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="CHIP-LTST">
-<smd name="1" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="2" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="3" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="4" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="1" x="0.44" y="0.725" dx="0.6" dy="0.85" layer="1"/>
+<smd name="2" x="-0.44" y="0.725" dx="0.6" dy="0.85" layer="1"/>
+<smd name="3" x="0.44" y="-0.725" dx="0.6" dy="0.85" layer="1"/>
+<smd name="4" x="-0.44" y="-0.725" dx="0.6" dy="0.85" layer="1"/>
 <wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.1" layer="21"/>
 <wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.1" layer="21"/>
 <wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.1" layer="21"/>
@@ -4437,29 +4403,64 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <wire x1="-0.8" y1="-1.35" x2="0.8" y2="-1.35" width="0.1" layer="21"/>
 </package>
 <package name="CON_PF">
-<pad name="9V" x="-2.25" y="0" drill="0.7" shape="square"/>
+<pad name="9V" x="-2.25" y="0" drill="0.7" shape="octagon"/>
 <pad name="C2" x="-0.75" y="0" drill="0.7"/>
 <pad name="C1" x="0.75" y="0" drill="0.7"/>
-<pad name="GND" x="2.25" y="0" drill="0.7"/>
+<pad name="GND" x="2.25" y="0" drill="0.7" shape="square"/>
+<wire x1="-3.81" y1="0" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="0.3175" x2="-3.4925" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="SO8">
-<smd name="P$8" x="-1.905" y="2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$7" x="-0.635" y="2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$6" x="0.635" y="2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$5" x="1.905" y="2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$1" x="-1.905" y="-2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$2" x="-0.635" y="-2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$3" x="0.635" y="-2.925" dx="0.6" dy="2" layer="1"/>
-<smd name="P$4" x="1.905" y="-2.925" dx="0.6" dy="2" layer="1"/>
-<wire x1="-2.54" y1="2" x2="2.54" y2="2" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2" x2="2.54" y2="-2" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2" x2="-2.54" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="0.635" width="0.127" layer="21" curve="180"/>
+<package name="PWP_R-PDSO-G16">
+<smd name="1" x="-2.275" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="2" x="-1.625" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="3" x="-0.975" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="4" x="-0.325" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="0.325" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="0.975" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="1.625" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="2.275" y="-2.9" dx="1.55" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="2.275" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="10" x="1.625" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="11" x="0.975" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="12" x="0.325" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="13" x="-0.325" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="14" x="-0.975" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="15" x="-1.625" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="16" x="-2.275" y="2.9" dx="1.55" dy="0.25" layer="1" rot="R270"/>
+<smd name="17" x="0" y="0" dx="2.26" dy="2.03" layer="1" rot="R90" thermals="no"/>
+<wire x1="-2.4" y1="2.125" x2="-2.4" y2="2.025" width="0" layer="16"/>
+<wire x1="-2.55" y1="2.25" x2="-2.55" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-0.635" x2="-2.55" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-2.25" x2="2.55" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-2.25" x2="2.55" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.55" y1="2.25" x2="-2.55" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-0.635" x2="-2.55" y2="0.635" width="0.127" layer="21" curve="180"/>
+<circle x="-1.915" y="-1.615" radius="0.3175" width="0.127" layer="21"/>
 <text x="-3.175" y="0" size="1.27" layer="21" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="3.175" y="0" size="1.27" layer="21" rot="R90" align="top-center">&gt;VALUE</text>
-<circle x="-1.905" y="-1.27" radius="0.3175" width="0.127" layer="21"/>
+<rectangle x1="-1.115" y1="-1.23" x2="1.115" y2="1.23" layer="1"/>
+</package>
+<package name="MICRO-DIP">
+<smd name="+" x="2" y="2.95" dx="0.85" dy="1.55" layer="1"/>
+<smd name="-" x="-2" y="2.95" dx="0.85" dy="1.55" layer="1"/>
+<smd name="AC1" x="-2" y="-2.95" dx="0.85" dy="1.55" layer="1"/>
+<smd name="AC2" x="2" y="-2.95" dx="0.85" dy="1.55" layer="1"/>
+<wire x1="-2.5" y1="2.2" x2="-0.5" y2="2.2" width="0.1" layer="21"/>
+<wire x1="0.5" y1="2.2" x2="2.5" y2="2.2" width="0.1" layer="21"/>
+<wire x1="2.5" y1="2.2" x2="2.5" y2="-2.2" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-2.2" x2="-2.5" y2="-2.2" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-2.2" x2="-2.5" y2="2.2" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="2.2" x2="0.5" y2="2.2" width="0.1" layer="21" curve="180"/>
+<wire x1="2" y1="1.8" x2="2" y2="1.4" width="0.1" layer="21"/>
+<wire x1="1.8" y1="1.6" x2="2.2" y2="1.6" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="1.6" x2="-1.8" y2="1.6" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="-1.6" x2="-2" y2="-1.6" width="0.1" layer="21" curve="-180"/>
+<wire x1="-2" y1="-1.6" x2="-1.8" y2="-1.6" width="0.1" layer="21" curve="180"/>
+<wire x1="1.8" y1="-1.7" x2="2" y2="-1.7" width="0.1" layer="21" curve="-180"/>
+<wire x1="2" y1="-1.7" x2="2.2" y2="-1.7" width="0.1" layer="21" curve="180"/>
+<text x="-2.7" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.7" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -4499,38 +4500,6 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <wire x1="20.32" y1="-17.78" x2="-20.32" y2="-17.78" width="0.254" layer="94"/>
 <text x="-20.32" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-20.32" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="IC_TB6612FNG">
-<wire x1="-12.7" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
-<text x="-12.7" y="15.748" size="1.27" layer="95">&gt;Name</text>
-<text x="-12.7" y="-20.32" size="1.27" layer="96">&gt;Value</text>
-<pin name="A01@1" x="-17.78" y="12.7" length="middle"/>
-<pin name="A01@2" x="-17.78" y="10.16" length="middle"/>
-<pin name="PGND1@3" x="-17.78" y="7.62" length="middle"/>
-<pin name="PGND1@4" x="-17.78" y="5.08" length="middle"/>
-<pin name="A02@5" x="-17.78" y="2.54" length="middle"/>
-<pin name="A02@6" x="-17.78" y="0" length="middle"/>
-<pin name="B02@7" x="-17.78" y="-2.54" length="middle"/>
-<pin name="B02@8" x="-17.78" y="-5.08" length="middle"/>
-<pin name="PGND2@9" x="-17.78" y="-7.62" length="middle"/>
-<pin name="PGND2@10" x="-17.78" y="-10.16" length="middle"/>
-<pin name="B01@11" x="-17.78" y="-12.7" length="middle"/>
-<pin name="B01@12" x="-17.78" y="-15.24" length="middle"/>
-<pin name="VM2" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="VM3" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="PWMB" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="BIN2" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="BIN1" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="STBY" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="VCC" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="AIN1" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="AIN2" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="PWMA" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="VM1" x="15.24" y="12.7" length="middle" rot="R180"/>
 </symbol>
 <symbol name="GB">
 <wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.3048" layer="94"/>
@@ -4643,192 +4612,29 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </polygon>
 <text x="5.08" y="5.588" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
 </symbol>
-<symbol name="IC_FET_BRIDGE">
-<pin name="N1D/P1D" x="-15.24" y="0" visible="pin" length="short"/>
-<pin name="N1G" x="-15.24" y="-10.16" visible="pin" length="short"/>
-<pin name="P1G" x="-15.24" y="10.16" visible="pin" length="short"/>
-<pin name="P1S/P2S" x="0" y="17.78" visible="pin" length="short" rot="R270"/>
-<pin name="P2G" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="N2G" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="N1S/N2S" x="0" y="-17.78" visible="pin" length="short" rot="R90"/>
-<pin name="N2D/P2D" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
-<wire x1="-7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.1651" layer="94"/>
-<wire x1="-10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="10.16" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="10.795" width="0.1651" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="-7.62" y2="10.16" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="10.795" x2="7.62" y2="10.16" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="7.62" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="10.16" y2="10.16" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="4.445" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="4.445" x2="7.62" y2="0" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-4.445" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-4.445" x2="7.62" y2="-5.08" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-10.795" x2="7.62" y2="-10.16" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="-7.62" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="10.16" y2="-10.16" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-10.795" x2="-7.62" y2="-10.16" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-7.62" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="4.445" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="4.445" x2="-7.62" y2="0" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-4.445" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-4.445" x2="-7.62" y2="-5.08" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1651" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="-5.08" width="0.1651" layer="94"/>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="5.08" width="0.1651" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="12.7" y2="-5.08" width="0.1651" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="5.08" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-10.795" x2="-5.08" y2="-10.795" width="0.1651" layer="94"/>
-<wire x1="-5.08" y1="-10.795" x2="-5.08" y2="-8.255" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-4.445" x2="-5.08" y2="-4.445" width="0.1651" layer="94"/>
-<wire x1="-5.08" y1="-4.445" x2="-5.08" y2="-6.985" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="4.445" x2="-5.08" y2="4.445" width="0.1651" layer="94"/>
-<wire x1="-5.08" y1="4.445" x2="-5.08" y2="6.985" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="10.795" x2="-5.08" y2="10.795" width="0.1651" layer="94"/>
-<wire x1="-5.08" y1="10.795" x2="-5.08" y2="8.255" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="4.445" x2="5.08" y2="4.445" width="0.1651" layer="94"/>
-<wire x1="5.08" y1="4.445" x2="5.08" y2="6.985" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="10.795" x2="5.08" y2="10.795" width="0.1651" layer="94"/>
-<wire x1="5.08" y1="10.795" x2="5.08" y2="8.255" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-4.445" x2="5.08" y2="-4.445" width="0.1651" layer="94"/>
-<wire x1="5.08" y1="-4.445" x2="5.08" y2="-6.985" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-10.795" x2="5.08" y2="-10.795" width="0.1651" layer="94"/>
-<wire x1="5.08" y1="-10.795" x2="5.08" y2="-8.255" width="0.1651" layer="94"/>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="-7.62"/>
-<vertex x="-8.89" y="-6.985"/>
-<vertex x="-8.89" y="-8.255"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-7.62" y="7.62"/>
-<vertex x="-8.89" y="8.255"/>
-<vertex x="-8.89" y="6.985"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="7.62" y="7.62"/>
-<vertex x="8.89" y="8.255"/>
-<vertex x="8.89" y="6.985"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="-7.62"/>
-<vertex x="8.89" y="-6.985"/>
-<vertex x="8.89" y="-8.255"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-5.08" y="-6.985"/>
-<vertex x="-5.715" y="-8.255"/>
-<vertex x="-4.445" y="-8.255"/>
-</polygon>
-<wire x1="-5.715" y1="-6.985" x2="-4.445" y2="-6.985" width="0.1651" layer="94"/>
-<polygon width="0.1651" layer="94">
-<vertex x="-5.715" y="6.985"/>
-<vertex x="-4.445" y="6.985"/>
-<vertex x="-5.08" y="8.255"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="4.445" y="6.985"/>
-<vertex x="5.715" y="6.985"/>
-<vertex x="5.08" y="8.255"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="4.445" y="-8.255"/>
-<vertex x="5.715" y="-8.255"/>
-<vertex x="5.08" y="-6.985"/>
-</polygon>
-<wire x1="4.445" y1="-6.985" x2="5.715" y2="-6.985" width="0.1651" layer="94"/>
-<wire x1="4.445" y1="8.255" x2="5.715" y2="8.255" width="0.1651" layer="94"/>
-<wire x1="-5.715" y1="8.255" x2="-4.445" y2="8.255" width="0.1651" layer="94"/>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="8.255"/>
-<vertex x="-10.16" y="6.985"/>
-<vertex x="-11.43" y="6.985"/>
-<vertex x="-11.43" y="8.255"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="10.16"/>
-<vertex x="-10.16" y="8.89"/>
-<vertex x="-11.43" y="8.89"/>
-<vertex x="-11.43" y="10.16"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="5.08"/>
-<vertex x="-10.16" y="6.35"/>
-<vertex x="-11.43" y="6.35"/>
-<vertex x="-11.43" y="5.08"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="-6.985"/>
-<vertex x="-10.16" y="-8.255"/>
-<vertex x="-11.43" y="-8.255"/>
-<vertex x="-11.43" y="-6.985"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="-5.08"/>
-<vertex x="-10.16" y="-6.35"/>
-<vertex x="-11.43" y="-6.35"/>
-<vertex x="-11.43" y="-5.08"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="-10.16" y="-8.89"/>
-<vertex x="-10.16" y="-10.16"/>
-<vertex x="-11.43" y="-10.16"/>
-<vertex x="-11.43" y="-8.89"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="-10.16"/>
-<vertex x="10.16" y="-8.89"/>
-<vertex x="11.43" y="-8.89"/>
-<vertex x="11.43" y="-10.16"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="-8.255"/>
-<vertex x="10.16" y="-6.985"/>
-<vertex x="11.43" y="-6.985"/>
-<vertex x="11.43" y="-8.255"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="-6.35"/>
-<vertex x="10.16" y="-5.08"/>
-<vertex x="11.43" y="-5.08"/>
-<vertex x="11.43" y="-6.35"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="5.08"/>
-<vertex x="10.16" y="6.35"/>
-<vertex x="11.43" y="6.35"/>
-<vertex x="11.43" y="5.08"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="6.985"/>
-<vertex x="10.16" y="8.255"/>
-<vertex x="11.43" y="8.255"/>
-<vertex x="11.43" y="6.985"/>
-</polygon>
-<polygon width="0.1651" layer="94">
-<vertex x="10.16" y="8.89"/>
-<vertex x="10.16" y="10.16"/>
-<vertex x="11.43" y="10.16"/>
-<vertex x="11.43" y="8.89"/>
-</polygon>
-<circle x="-7.62" y="7.62" radius="6.35" width="0.1651" layer="94"/>
-<circle x="-7.62" y="-7.62" radius="6.35" width="0.1651" layer="94"/>
-<circle x="7.62" y="-7.62" radius="6.35" width="0.1651" layer="94"/>
-<circle x="7.62" y="7.62" radius="6.35" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-10.795" x2="-7.62" y2="-15.24" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="-10.795" x2="7.62" y2="-15.24" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="10.795" x2="-7.62" y2="15.24" width="0.1651" layer="94"/>
-<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="10.795" x2="7.62" y2="15.24" width="0.1651" layer="94"/>
-<wire x1="-12.7" y1="0" x2="-7.62" y2="0" width="0.1651" layer="94"/>
-<wire x1="7.62" y1="0" x2="12.7" y2="0" width="0.1651" layer="94"/>
-<text x="-8.89" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="IC_DRV8833">
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="NSLEEP" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="AOUT1" x="-17.78" y="2.54" length="middle"/>
+<pin name="AISEN" x="-17.78" y="-2.54" length="middle"/>
+<pin name="AOUT2" x="-17.78" y="0" length="middle"/>
+<pin name="BOUT2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="BISEN" x="-17.78" y="-12.7" length="middle"/>
+<pin name="BOUT1" x="-17.78" y="-10.16" length="middle"/>
+<pin name="NFAULT" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="BIN1" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="BIN2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="VCP" x="-17.78" y="7.62" length="middle"/>
+<pin name="VM" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="VINT" x="-17.78" y="10.16" length="middle"/>
+<pin name="AIN2" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="AIN1" x="17.78" y="2.54" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4872,44 +4678,6 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <connect gate="G$1" pin="(PCINT9/XTAL2)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="IC_TB6612FNG" prefix="IC">
-<gates>
-<gate name="G$1" symbol="IC_TB6612FNG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SSOP24">
-<connects>
-<connect gate="G$1" pin="A01@1" pad="1"/>
-<connect gate="G$1" pin="A01@2" pad="2"/>
-<connect gate="G$1" pin="A02@5" pad="5"/>
-<connect gate="G$1" pin="A02@6" pad="6"/>
-<connect gate="G$1" pin="AIN1" pad="21"/>
-<connect gate="G$1" pin="AIN2" pad="22"/>
-<connect gate="G$1" pin="B01@11" pad="11"/>
-<connect gate="G$1" pin="B01@12" pad="12"/>
-<connect gate="G$1" pin="B02@7" pad="7"/>
-<connect gate="G$1" pin="B02@8" pad="8"/>
-<connect gate="G$1" pin="BIN1" pad="17"/>
-<connect gate="G$1" pin="BIN2" pad="16"/>
-<connect gate="G$1" pin="GND" pad="18"/>
-<connect gate="G$1" pin="PGND1@3" pad="3"/>
-<connect gate="G$1" pin="PGND1@4" pad="4"/>
-<connect gate="G$1" pin="PGND2@10" pad="10"/>
-<connect gate="G$1" pin="PGND2@9" pad="9"/>
-<connect gate="G$1" pin="PWMA" pad="23"/>
-<connect gate="G$1" pin="PWMB" pad="15"/>
-<connect gate="G$1" pin="STBY" pad="19"/>
-<connect gate="G$1" pin="VCC" pad="20"/>
-<connect gate="G$1" pin="VM1" pad="24"/>
-<connect gate="G$1" pin="VM2" pad="13"/>
-<connect gate="G$1" pin="VM3" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5038,21 +4806,47 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC_FET_BRIDGE" prefix="Q">
+<deviceset name="IC_DRV8833">
 <gates>
-<gate name="G$1" symbol="IC_FET_BRIDGE" x="0" y="0"/>
+<gate name="G$1" symbol="IC_DRV8833" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SO8" package="SO8">
+<device name="" package="PWP_R-PDSO-G16">
 <connects>
-<connect gate="G$1" pin="N1D/P1D" pad="P$2"/>
-<connect gate="G$1" pin="N1G" pad="P$1"/>
-<connect gate="G$1" pin="N1S/N2S" pad="P$3"/>
-<connect gate="G$1" pin="N2D/P2D" pad="P$6"/>
-<connect gate="G$1" pin="N2G" pad="P$4"/>
-<connect gate="G$1" pin="P1G" pad="P$8"/>
-<connect gate="G$1" pin="P1S/P2S" pad="P$7"/>
-<connect gate="G$1" pin="P2G" pad="P$5"/>
+<connect gate="G$1" pin="AIN1" pad="16"/>
+<connect gate="G$1" pin="AIN2" pad="15"/>
+<connect gate="G$1" pin="AISEN" pad="3"/>
+<connect gate="G$1" pin="AOUT1" pad="2"/>
+<connect gate="G$1" pin="AOUT2" pad="4"/>
+<connect gate="G$1" pin="BIN1" pad="9"/>
+<connect gate="G$1" pin="BIN2" pad="10"/>
+<connect gate="G$1" pin="BISEN" pad="6"/>
+<connect gate="G$1" pin="BOUT1" pad="7"/>
+<connect gate="G$1" pin="BOUT2" pad="5"/>
+<connect gate="G$1" pin="GND" pad="13 17"/>
+<connect gate="G$1" pin="NFAULT" pad="8"/>
+<connect gate="G$1" pin="NSLEEP" pad="1"/>
+<connect gate="G$1" pin="VCP" pad="11"/>
+<connect gate="G$1" pin="VINT" pad="14"/>
+<connect gate="G$1" pin="VM" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B_MDB8S" prefix="B">
+<gates>
+<gate name="G$1" symbol="GB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO-DIP">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="AC1" pad="AC1"/>
+<connect gate="G$1" pin="AC2" pad="AC2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5076,9 +4870,7 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <part name="U4" library="SparkFun-RF" deviceset="BLUETOOTH-RN41" device="&quot;"/>
 <part name="U1" library="brickster" deviceset="IC_ATTINY_X4A" device=""/>
 <part name="R2" library="brickster" deviceset="R" device="0805" value="3.3k"/>
-<part name="U2" library="brickster" deviceset="IC_TB6612FNG" device=""/>
-<part name="C3" library="brickster" deviceset="C" device="0805" value="0.1uF"/>
-<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
+<part name="C3" library="brickster" deviceset="C" device="0805" value="0.01uF"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
@@ -5105,72 +4897,71 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <part name="J2" library="brickster" deviceset="CON_PF" device=""/>
 <part name="J3" library="brickster" deviceset="CON_PF" device=""/>
 <part name="J4" library="brickster" deviceset="CON_PF" device=""/>
-<part name="Q1" library="brickster" deviceset="IC_FET_BRIDGE" device="SO8"/>
-<part name="Q2" library="brickster" deviceset="IC_FET_BRIDGE" device="SO8"/>
-<part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
+<part name="U2" library="brickster" deviceset="IC_DRV8833" device=""/>
+<part name="C4" library="brickster" deviceset="C" device="0805" value="2.2uF"/>
+<part name="B2" library="brickster" deviceset="B_MDB8S" device=""/>
+<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="279.4" y="27.94" size="2.54" layer="97">Nick Iaconis</text>
-<text x="342.9" y="27.94" size="2.54" layer="97">1a</text>
+<text x="342.9" y="27.94" size="2.54" layer="97">2</text>
 </plain>
 <instances>
-<instance part="U3" gate="G$1" x="198.12" y="144.78" smashed="yes">
-<attribute name="NAME" x="193.04" y="148.082" size="1.778" layer="95"/>
+<instance part="U3" gate="G$1" x="292.1" y="76.2" smashed="yes">
+<attribute name="NAME" x="287.02" y="79.502" size="1.778" layer="95"/>
 </instance>
 <instance part="U4" gate="G$1" x="152.4" y="101.6"/>
 <instance part="U1" gate="G$1" x="147.32" y="175.26"/>
-<instance part="R2" gate="G$1" x="220.98" y="111.76" rot="R90"/>
-<instance part="U2" gate="G$1" x="299.72" y="71.12"/>
-<instance part="C3" gate="G$1" x="284.48" y="99.06" smashed="yes">
-<attribute name="NAME" x="280.416" y="101.727" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.606" y="96.647" size="1.778" layer="96"/>
-</instance>
-<instance part="GND1" gate="1" x="276.86" y="50.8"/>
-<instance part="GND2" gate="1" x="284.48" y="91.44"/>
-<instance part="GND4" gate="1" x="292.1" y="91.44"/>
-<instance part="GND5" gate="1" x="320.04" y="50.8"/>
+<instance part="R2" gate="G$1" x="220.98" y="101.6" rot="R90"/>
+<instance part="C3" gate="G$1" x="269.24" y="149.86"/>
+<instance part="GND2" gate="1" x="269.24" y="99.06"/>
+<instance part="GND4" gate="1" x="294.64" y="139.7"/>
+<instance part="GND5" gate="1" x="314.96" y="99.06"/>
 <instance part="GND8" gate="1" x="175.26" y="66.04"/>
-<instance part="J1" gate="G$1" x="210.82" y="63.5" smashed="yes">
-<attribute name="NAME" x="206.502" y="69.342" size="1.778" layer="95"/>
+<instance part="J1" gate="G$1" x="213.36" y="139.7" smashed="yes">
+<attribute name="NAME" x="209.042" y="145.542" size="1.778" layer="95"/>
 </instance>
-<instance part="GND9" gate="1" x="223.52" y="55.88"/>
+<instance part="GND9" gate="1" x="226.06" y="132.08"/>
 <instance part="GND10" gate="1" x="119.38" y="154.94"/>
-<instance part="B3" gate="G$1" x="269.24" y="129.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="271.78" y="132.08" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<instance part="B3" gate="G$1" x="284.48" y="182.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="287.02" y="185.42" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </instance>
-<instance part="B4" gate="G$1" x="307.34" y="129.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="309.88" y="132.08" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<instance part="B4" gate="G$1" x="322.58" y="182.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="325.12" y="185.42" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </instance>
-<instance part="GND11" gate="1" x="276.86" y="124.46"/>
-<instance part="GND12" gate="1" x="314.96" y="124.46"/>
-<instance part="SUPPLY1" gate="G$1" x="210.82" y="147.32"/>
-<instance part="GND13" gate="1" x="198.12" y="124.46"/>
-<instance part="SUPPLY6" gate="G$1" x="185.42" y="147.32"/>
+<instance part="GND11" gate="1" x="292.1" y="177.8"/>
+<instance part="GND12" gate="1" x="330.2" y="177.8"/>
+<instance part="SUPPLY1" gate="G$1" x="304.8" y="78.74"/>
+<instance part="GND13" gate="1" x="292.1" y="55.88"/>
+<instance part="SUPPLY6" gate="G$1" x="279.4" y="78.74"/>
 <instance part="FRAME1" gate="G$1" x="101.6" y="20.32"/>
 <instance part="FRAME1" gate="G$2" x="248.92" y="20.32"/>
 <instance part="R1" gate="G$1" x="182.88" y="101.6"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="30.48"/>
-<instance part="C1" gate="G$1" x="185.42" y="137.16"/>
-<instance part="C2" gate="G$1" x="210.82" y="139.7"/>
-<instance part="C5" gate="G$1" x="292.1" y="101.6"/>
-<instance part="D1" gate="G$1" x="226.06" y="93.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="223.52" y="99.06" size="1.778" layer="97" rot="R270" align="top-left"/>
+<instance part="C1" gate="G$1" x="279.4" y="68.58"/>
+<instance part="C2" gate="G$1" x="304.8" y="71.12"/>
+<instance part="C5" gate="G$1" x="294.64" y="152.4"/>
+<instance part="D1" gate="G$1" x="226.06" y="83.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="223.52" y="88.9" size="1.778" layer="97" rot="R270" align="top-left"/>
 </instance>
-<instance part="D1" gate="G$2" x="215.9" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="218.44" y="91.44" size="1.778" layer="97" rot="R90" align="top-left"/>
+<instance part="D1" gate="G$2" x="215.9" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="218.44" y="81.28" size="1.778" layer="97" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND7" gate="1" x="160.02" y="33.02"/>
 <instance part="GND14" gate="1" x="195.58" y="33.02"/>
 <instance part="J2" gate="G$1" x="116.84" y="43.18" rot="MR0"/>
 <instance part="J3" gate="G$1" x="152.4" y="43.18" rot="MR0"/>
 <instance part="J4" gate="G$1" x="187.96" y="43.18" rot="MR0"/>
-<instance part="Q1" gate="G$1" x="238.76" y="172.72"/>
-<instance part="Q2" gate="G$1" x="304.8" y="172.72"/>
-<instance part="GND3" gate="1" x="238.76" y="149.86"/>
-<instance part="GND6" gate="1" x="304.8" y="149.86"/>
+<instance part="GND6" gate="1" x="254" y="177.8"/>
+<instance part="U2" gate="G$1" x="292.1" y="119.38"/>
+<instance part="C4" gate="G$1" x="264.16" y="129.54" rot="R180"/>
+<instance part="B2" gate="G$1" x="246.38" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="248.92" y="185.42" size="1.778" layer="95"/>
+</instance>
+<instance part="GND1" gate="1" x="124.46" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -5195,43 +4986,20 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="78.74" x2="276.86" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="78.74" x2="276.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="76.2" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="63.5" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="60.96" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="76.2" x2="276.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="63.5" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
-<junction x="276.86" y="76.2"/>
-<junction x="276.86" y="63.5"/>
-<junction x="276.86" y="60.96"/>
-<pinref part="U2" gate="G$1" pin="PGND1@3"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="U2" gate="G$1" pin="PGND1@4"/>
-<pinref part="U2" gate="G$1" pin="PGND2@9"/>
-<pinref part="U2" gate="G$1" pin="PGND2@10"/>
-</segment>
-<segment>
-<wire x1="314.96" y1="68.58" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="68.58" x2="320.04" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="309.88" y1="127" x2="314.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="127" x2="314.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="93.98" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="292.1" y1="96.52" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="294.64" y1="147.32" x2="294.64" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="220.98" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="60.96" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="137.16" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5242,26 +5010,26 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </segment>
 <segment>
 <pinref part="B3" gate="G$1" pin="-"/>
-<wire x1="274.32" y1="129.54" x2="276.86" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="182.88" x2="292.1" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="276.86" y1="127" x2="276.86" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="180.34" x2="292.1" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="B4" gate="G$1" pin="-"/>
-<wire x1="312.42" y1="129.54" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="314.96" y1="127" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="180.34" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="137.16" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="134.62" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="134.62" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
-<junction x="198.12" y="129.54"/>
+<wire x1="292.1" y1="68.58" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="66.04" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="66.04" x2="304.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="60.96" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
+<junction x="292.1" y="60.96"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="198.12" y1="127" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="58.42" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 </segment>
@@ -5278,14 +5046,30 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J4" gate="G$1" pin="P$4"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="N1S/N2S"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="238.76" y1="154.94" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="251.46" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="254" y1="182.88" x2="254" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="B2" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="N1S/N2S"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="304.8" y1="154.94" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="BISEN"/>
+<wire x1="269.24" y1="101.6" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="106.68" x2="274.32" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="AISEN"/>
+<wire x1="269.24" y1="106.68" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="116.84" x2="274.32" y2="116.84" width="0.1524" layer="91"/>
+<junction x="269.24" y="106.68"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="124.46" x2="269.24" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="124.46" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
+<junction x="269.24" y="116.84"/>
+</segment>
+<segment>
+<wire x1="121.92" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="38.1" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$4"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5318,14 +5102,9 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </net>
 <net name="A01" class="0">
 <segment>
-<wire x1="281.94" y1="81.28" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="83.82" x2="279.4" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="83.82" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
-<junction x="279.4" y="81.28"/>
-<label x="251.46" y="81.28" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="A01@2"/>
-<pinref part="U2" gate="G$1" pin="A01@1"/>
+<wire x1="274.32" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<label x="246.38" y="121.92" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="AOUT1"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
@@ -5333,22 +5112,17 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J3" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
-<wire x1="269.24" y1="121.92" x2="254" y2="121.92" width="0.1524" layer="91"/>
-<label x="256.54" y="121.92" size="1.778" layer="95"/>
+<wire x1="284.48" y1="175.26" x2="269.24" y2="175.26" width="0.1524" layer="91"/>
+<label x="271.78" y="175.26" size="1.778" layer="95"/>
 <pinref part="B3" gate="G$1" pin="AC2"/>
-<wire x1="269.24" y1="124.46" x2="269.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="177.8" x2="284.48" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A02" class="0">
 <segment>
-<wire x1="281.94" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="73.66" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
-<junction x="279.4" y="71.12"/>
-<label x="251.46" y="71.12" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="A02@6"/>
-<pinref part="U2" gate="G$1" pin="A02@5"/>
+<wire x1="243.84" y1="119.38" x2="274.32" y2="119.38" width="0.1524" layer="91"/>
+<label x="246.38" y="119.38" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="AOUT2"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="43.18" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
@@ -5356,22 +5130,17 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J3" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="269.24" y1="137.16" x2="254" y2="137.16" width="0.1524" layer="91"/>
-<label x="256.54" y="137.16" size="1.778" layer="95"/>
+<wire x1="284.48" y1="190.5" x2="269.24" y2="190.5" width="0.1524" layer="91"/>
+<label x="271.78" y="190.5" size="1.778" layer="95"/>
 <pinref part="B3" gate="G$1" pin="AC1"/>
-<wire x1="269.24" y1="137.16" x2="269.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="190.5" x2="284.48" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B02" class="0">
 <segment>
-<wire x1="281.94" y1="66.04" x2="279.4" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="68.58" x2="279.4" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
-<junction x="279.4" y="66.04"/>
-<label x="251.46" y="66.04" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="B02@8"/>
-<pinref part="U2" gate="G$1" pin="B02@7"/>
+<wire x1="274.32" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
+<label x="246.38" y="111.76" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="BOUT2"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
@@ -5379,22 +5148,17 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J4" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="137.16" x2="292.1" y2="137.16" width="0.1524" layer="91"/>
-<label x="294.64" y="137.16" size="1.778" layer="95"/>
+<wire x1="322.58" y1="190.5" x2="307.34" y2="190.5" width="0.1524" layer="91"/>
+<label x="309.88" y="190.5" size="1.778" layer="95"/>
 <pinref part="B4" gate="G$1" pin="AC1"/>
-<wire x1="307.34" y1="137.16" x2="307.34" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="190.5" x2="322.58" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B01" class="0">
 <segment>
-<wire x1="281.94" y1="55.88" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="58.42" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="55.88" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
-<junction x="279.4" y="55.88"/>
-<label x="251.46" y="55.88" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="B01@12"/>
-<pinref part="U2" gate="G$1" pin="B01@11"/>
+<wire x1="274.32" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+<label x="246.38" y="109.22" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="BOUT1"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="40.64" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
@@ -5402,28 +5166,16 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J4" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="121.92" x2="292.1" y2="121.92" width="0.1524" layer="91"/>
-<label x="294.64" y="121.92" size="1.778" layer="95"/>
+<wire x1="322.58" y1="175.26" x2="307.34" y2="175.26" width="0.1524" layer="91"/>
+<label x="309.88" y="175.26" size="1.778" layer="95"/>
 <pinref part="B4" gate="G$1" pin="AC2"/>
-<wire x1="307.34" y1="124.46" x2="307.34" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PWMA" class="0">
-<segment>
-<wire x1="314.96" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="332.74" y="81.28" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="PWMA"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="(PCINT3/T0/ADC3)PA3"/>
-<wire x1="172.72" y1="167.64" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
-<label x="190.5" y="167.64" size="1.778" layer="95" rot="MR0"/>
+<wire x1="322.58" y1="177.8" x2="322.58" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AIN2" class="0">
 <segment>
-<wire x1="314.96" y1="78.74" x2="340.36" y2="78.74" width="0.1524" layer="91"/>
-<label x="332.74" y="78.74" size="1.778" layer="95"/>
+<wire x1="309.88" y1="119.38" x2="335.28" y2="119.38" width="0.1524" layer="91"/>
+<label x="327.66" y="119.38" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="AIN2"/>
 </segment>
 <segment>
@@ -5434,8 +5186,8 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </net>
 <net name="AIN1" class="0">
 <segment>
-<wire x1="314.96" y1="76.2" x2="340.36" y2="76.2" width="0.1524" layer="91"/>
-<label x="332.74" y="76.2" size="1.778" layer="95"/>
+<wire x1="309.88" y1="121.92" x2="335.28" y2="121.92" width="0.1524" layer="91"/>
+<label x="327.66" y="121.92" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="AIN1"/>
 </segment>
 <segment>
@@ -5446,8 +5198,8 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </net>
 <net name="BIN1" class="0">
 <segment>
-<wire x1="314.96" y1="66.04" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="332.74" y="66.04" size="1.778" layer="95"/>
+<wire x1="309.88" y1="116.84" x2="335.28" y2="116.84" width="0.1524" layer="91"/>
+<label x="327.66" y="116.84" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="BIN1"/>
 </segment>
 <segment>
@@ -5458,8 +5210,8 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </net>
 <net name="BIN2" class="0">
 <segment>
-<wire x1="314.96" y1="63.5" x2="340.36" y2="63.5" width="0.1524" layer="91"/>
-<label x="332.74" y="63.5" size="1.778" layer="95"/>
+<wire x1="309.88" y1="114.3" x2="335.28" y2="114.3" width="0.1524" layer="91"/>
+<label x="327.66" y="114.3" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="BIN2"/>
 </segment>
 <segment>
@@ -5468,21 +5220,9 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <label x="190.5" y="187.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="PWMB" class="0">
-<segment>
-<wire x1="314.96" y1="60.96" x2="340.36" y2="60.96" width="0.1524" layer="91"/>
-<label x="332.74" y="60.96" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="PWMB"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7)PA7"/>
-<wire x1="172.72" y1="177.8" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
-<label x="190.5" y="177.8" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="195.58" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
@@ -5499,7 +5239,7 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="228.6" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -5510,7 +5250,7 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -5521,20 +5261,20 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="106.68" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
-<junction x="220.98" y="104.14"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<junction x="220.98" y="93.98"/>
 <pinref part="D1" gate="G$2" pin="P$2"/>
-<wire x1="215.9" y1="99.06" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="88.9" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="P$1"/>
-<wire x1="226.06" y1="104.14" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="93.98" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ORANGE" class="0">
@@ -5545,9 +5285,9 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="116.84" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
-<label x="210.82" y="119.38" size="1.778" layer="95"/>
+<wire x1="220.98" y1="106.68" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="210.82" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ATRX/BTTX" class="0">
@@ -5564,25 +5304,15 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </net>
 <net name="3.3V" class="0">
 <segment>
-<wire x1="210.82" y1="142.24" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="73.66" x2="304.8" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="OUT"/>
-<wire x1="205.74" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="76.2" x2="304.8" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="210.82" y1="144.78" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
-<junction x="210.82" y="144.78"/>
+<wire x1="304.8" y1="76.2" x2="304.8" y2="78.74" width="0.1524" layer="91"/>
+<junction x="304.8" y="76.2"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <pinref part="U3" gate="G$1" pin="P$1"/>
-<junction x="205.74" y="144.78"/>
-</segment>
-<segment>
-<wire x1="314.96" y1="73.66" x2="327.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VCC"/>
-<wire x1="314.96" y1="71.12" x2="327.66" y2="71.12" width="0.1524" layer="91"/>
-<label x="332.74" y="71.12" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="STBY"/>
-<wire x1="327.66" y1="71.12" x2="340.36" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="73.66" x2="327.66" y2="71.12" width="0.1524" layer="91"/>
-<junction x="327.66" y="71.12"/>
+<junction x="299.72" y="76.2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
@@ -5606,29 +5336,34 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="66.04" x2="233.68" y2="66.04" width="0.1524" layer="91"/>
-<label x="231.14" y="66.04" size="1.778" layer="95" rot="MR0"/>
+<wire x1="223.52" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
+<label x="233.68" y="142.24" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="NSLEEP"/>
+<wire x1="309.88" y1="109.22" x2="335.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="327.66" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
-<wire x1="185.42" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
-<junction x="185.42" y="144.78"/>
+<wire x1="279.4" y1="76.2" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+<junction x="279.4" y="76.2"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VIN"/>
-<wire x1="185.42" y1="142.24" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="144.78" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="73.66" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="76.2" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="B3" gate="G$1" pin="+"/>
-<wire x1="264.16" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
-<label x="256.54" y="129.54" size="1.778" layer="95"/>
+<wire x1="279.4" y1="182.88" x2="269.24" y2="182.88" width="0.1524" layer="91"/>
+<label x="271.78" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="B4" gate="G$1" pin="+"/>
-<wire x1="302.26" y1="129.54" x2="292.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="294.64" y="129.54" size="1.778" layer="95"/>
+<wire x1="317.5" y1="182.88" x2="307.34" y2="182.88" width="0.1524" layer="91"/>
+<label x="309.88" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
@@ -5641,81 +5376,49 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J4" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="55.88" x2="317.5" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="55.88" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="58.42" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="58.42" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="83.82" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="83.82" x2="317.5" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="106.68" x2="292.1" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="106.68" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="104.14" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="104.14" x2="292.1" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
-<junction x="317.5" y="83.82"/>
-<junction x="317.5" y="58.42"/>
-<junction x="284.48" y="106.68"/>
-<junction x="292.1" y="106.68"/>
-<label x="312.42" y="106.68" size="1.778" layer="95"/>
-<label x="251.46" y="106.68" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="VM2"/>
-<pinref part="U2" gate="G$1" pin="VM3"/>
-<pinref part="U2" gate="G$1" pin="VM1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="129.54" x2="314.96" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="157.48" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="154.94" x2="294.64" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="157.48" x2="269.24" y2="157.48" width="0.1524" layer="91"/>
+<junction x="294.64" y="157.48"/>
+<label x="307.34" y="157.48" size="1.778" layer="95"/>
+<label x="246.38" y="157.48" size="1.778" layer="95"/>
 <pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="U2" gate="G$1" pin="VM"/>
+<wire x1="269.24" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="129.54" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="154.94" x2="269.24" y2="157.48" width="0.1524" layer="91"/>
+<junction x="269.24" y="157.48"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="P1S/P2S"/>
-<wire x1="238.76" y1="190.5" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="193.04" x2="269.24" y2="193.04" width="0.1524" layer="91"/>
-<label x="266.7" y="193.04" size="1.778" layer="95" rot="MR0"/>
+<wire x1="228.6" y1="182.88" x2="241.3" y2="182.88" width="0.1524" layer="91"/>
+<label x="231.14" y="182.88" size="1.778" layer="95"/>
+<pinref part="B2" gate="G$1" pin="+"/>
 </segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="P1S/P2S"/>
-<wire x1="304.8" y1="190.5" x2="304.8" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="193.04" x2="335.28" y2="193.04" width="0.1524" layer="91"/>
-<label x="332.74" y="193.04" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="BLUE" class="0">
-<segment>
-<wire x1="220.98" y1="86.36" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<label x="210.82" y="78.74" size="1.778" layer="95"/>
-<wire x1="226.06" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<junction x="220.98" y="86.36"/>
-<pinref part="D1" gate="G$2" pin="P$1"/>
-<wire x1="215.9" y1="91.44" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="P$2"/>
-<wire x1="226.06" y1="91.44" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="PIO5"/>
-<wire x1="172.72" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
-<label x="195.58" y="106.68" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="PF_9V" class="0">
 <segment>
 <wire x1="121.92" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
 <label x="134.62" y="45.72" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
+</net>
+<net name="BLUE" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="N2D/P2D"/>
-<wire x1="254" y1="172.72" x2="269.24" y2="172.72" width="0.1524" layer="91"/>
-<label x="266.7" y="172.72" size="1.778" layer="95" rot="MR0"/>
+<wire x1="220.98" y1="76.2" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
+<label x="210.82" y="68.58" size="1.778" layer="95"/>
+<wire x1="226.06" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
+<junction x="220.98" y="76.2"/>
+<pinref part="D1" gate="G$2" pin="P$1"/>
+<wire x1="215.9" y1="81.28" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="P$2"/>
+<wire x1="226.06" y1="81.28" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="P1G"/>
-<wire x1="223.52" y1="182.88" x2="208.28" y2="182.88" width="0.1524" layer="91"/>
-<label x="210.82" y="182.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="N1G"/>
-<wire x1="223.52" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
-<label x="210.82" y="162.56" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="PIO5"/>
+<wire x1="172.72" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+<label x="195.58" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PF_C1" class="0">
@@ -5725,19 +5428,10 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J2" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="P1G"/>
-<wire x1="289.56" y1="182.88" x2="274.32" y2="182.88" width="0.1524" layer="91"/>
-<label x="276.86" y="182.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="N2D/P2D"/>
-<wire x1="320.04" y1="172.72" x2="335.28" y2="172.72" width="0.1524" layer="91"/>
-<label x="332.74" y="172.72" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="N1G"/>
-<wire x1="289.56" y1="162.56" x2="274.32" y2="162.56" width="0.1524" layer="91"/>
-<label x="276.86" y="162.56" size="1.778" layer="95"/>
+<wire x1="228.6" y1="175.26" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
+<label x="231.14" y="175.26" size="1.778" layer="95"/>
+<pinref part="B2" gate="G$1" pin="AC1"/>
+<wire x1="246.38" y1="175.26" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PF_C2" class="0">
@@ -5747,41 +5441,26 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <pinref part="J2" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="P2G"/>
-<wire x1="320.04" y1="182.88" x2="335.28" y2="182.88" width="0.1524" layer="91"/>
-<label x="332.74" y="182.88" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="N1D/P1D"/>
-<wire x1="289.56" y1="172.72" x2="274.32" y2="172.72" width="0.1524" layer="91"/>
-<label x="276.86" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="N2G"/>
-<wire x1="320.04" y1="162.56" x2="335.28" y2="162.56" width="0.1524" layer="91"/>
-<label x="332.74" y="162.56" size="1.778" layer="95" rot="MR0"/>
+<wire x1="246.38" y1="190.5" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
+<label x="231.14" y="190.5" size="1.778" layer="95"/>
+<pinref part="B2" gate="G$1" pin="AC2"/>
+<wire x1="246.38" y1="187.96" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PF_GND" class="0">
+<net name="N$1" class="0">
 <segment>
-<wire x1="121.92" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="P$4"/>
-<label x="134.62" y="38.1" size="1.778" layer="95" rot="MR0"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="U2" gate="G$1" pin="VCP"/>
+<wire x1="269.24" y1="147.32" x2="269.24" y2="127" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="127" x2="274.32" y2="127" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="N$2" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="N1D/P1D"/>
-<wire x1="223.52" y1="172.72" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
-<label x="210.82" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="P2G"/>
-<wire x1="254" y1="182.88" x2="269.24" y2="182.88" width="0.1524" layer="91"/>
-<label x="266.7" y="182.88" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="N2G"/>
-<wire x1="254" y1="162.56" x2="269.24" y2="162.56" width="0.1524" layer="91"/>
-<label x="266.7" y="162.56" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U2" gate="G$1" pin="VINT"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="129.54" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
