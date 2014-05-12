@@ -10,7 +10,7 @@ Listed here is a complete bill of materials for assembling one bluetooth receive
 
 + **U1** ATtiny84 SOIC14 (ATTINY84-20SSUR)
 + **U2** MotorDriver SOP16 (DRV8833PWPR)
-+ **U3** Regulator3.3V SOT223 (RT9164A-33GG)
++ **U3** Regulator3.3V SOT223 (NCP1117ST33T3G)
 + **U4** BluetoothModule SMD34 (HC-06)
 
 + **B2/B3/B4** BridgeRectifier MBS-2 (CDBHM240L-HF)
