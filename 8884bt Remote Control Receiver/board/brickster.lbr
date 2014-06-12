@@ -441,6 +441,15 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <wire x1="1.905" y1="-6.35" x2="2.54" y2="-6.35" width="0.127" layer="21" curve="180"/>
 <wire x1="2.54" y1="-6.35" x2="3.175" y2="-6.35" width="0.127" layer="21" curve="-180"/>
 </package>
+<package name="SMD_PF">
+<wire x1="-3.81" y1="0" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="0.3175" x2="-3.4925" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
+<smd name="9V" x="-2.25" y="0" dx="1.2065" dy="1.2065" layer="1" roundness="50"/>
+<smd name="C2" x="-0.75" y="0" dx="1.2065" dy="1.2065" layer="1" roundness="50"/>
+<smd name="C1" x="0.75" y="0" dx="1.2065" dy="1.2065" layer="1" roundness="50"/>
+<smd name="GND" x="2.25" y="0" dx="1.2065" dy="1.2065" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC_ATTINY_X4A">
@@ -1141,7 +1150,18 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <gate name="G$1" symbol="CON_PF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON_PF">
+<device name="_PTH" package="CON_PF">
+<connects>
+<connect gate="G$1" pin="P$1" pad="9V"/>
+<connect gate="G$1" pin="P$2" pad="C1"/>
+<connect gate="G$1" pin="P$3" pad="C2"/>
+<connect gate="G$1" pin="P$4" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SMD" package="SMD_PF">
 <connects>
 <connect gate="G$1" pin="P$1" pad="9V"/>
 <connect gate="G$1" pin="P$2" pad="C1"/>

@@ -4234,6 +4234,15 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <text x="0" y="1" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SMD_PF">
+<wire x1="-3.81" y1="0" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="0.3175" x2="-3.4925" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
+<smd name="9V" x="-2.25" y="0" dx="1.2065" dy="1.2065" layer="1" roundness="50"/>
+<smd name="C2" x="-0.75" y="0" dx="1.2065" dy="1.2065" layer="1" roundness="50"/>
+<smd name="C1" x="0.75" y="0" dx="1.2065" dy="1.2065" layer="1" roundness="50"/>
+<smd name="GND" x="2.25" y="0" dx="1.2065" dy="1.2065" layer="1"/>
+</package>
 <package name="CON_PF">
 <pad name="9V" x="-2.25" y="0" drill="0.7" shape="octagon"/>
 <pad name="C2" x="-0.75" y="0" drill="0.7"/>
@@ -4673,7 +4682,18 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <gate name="G$1" symbol="CON_PF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON_PF">
+<device name="_PTH" package="CON_PF">
+<connects>
+<connect gate="G$1" pin="P$1" pad="9V"/>
+<connect gate="G$1" pin="P$2" pad="C1"/>
+<connect gate="G$1" pin="P$3" pad="C2"/>
+<connect gate="G$1" pin="P$4" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SMD" package="SMD_PF">
 <connects>
 <connect gate="G$1" pin="P$1" pad="9V"/>
 <connect gate="G$1" pin="P$2" pad="C1"/>
@@ -4809,15 +4829,14 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME_LETTER_BLANK" device=""/>
-<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="C1" library="brickster" deviceset="C" device="0805" value="0.1uF"/>
 <part name="C2" library="brickster" deviceset="C_POL" device="" value="10uF"/>
 <part name="C5" library="brickster" deviceset="C_POL" device="" value="10uF"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
-<part name="J2" library="brickster" deviceset="CON_PF" device=""/>
-<part name="J3" library="brickster" deviceset="CON_PF" device=""/>
-<part name="J4" library="brickster" deviceset="CON_PF" device=""/>
+<part name="J2" library="brickster" deviceset="CON_PF" device="_SMD"/>
+<part name="J3" library="brickster" deviceset="CON_PF" device="_SMD"/>
+<part name="J4" library="brickster" deviceset="CON_PF" device="_SMD"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="U2" library="brickster" deviceset="IC_DRV8833" device=""/>
 <part name="C4" library="brickster" deviceset="C" device="0805" value="2.2uF"/>
@@ -4862,7 +4881,6 @@ More information: &lt;a href="https://github.com/codefox421/brickster"&gt;https:
 <instance part="SUPPLY6" gate="G$1" x="279.4" y="78.74"/>
 <instance part="FRAME1" gate="G$1" x="101.6" y="20.32"/>
 <instance part="FRAME1" gate="G$2" x="248.92" y="20.32"/>
-<instance part="LOGO2" gate="G$1" x="236.22" y="30.48"/>
 <instance part="C1" gate="G$1" x="279.4" y="68.58"/>
 <instance part="C2" gate="G$1" x="304.8" y="71.12"/>
 <instance part="C5" gate="G$1" x="294.64" y="152.4"/>
