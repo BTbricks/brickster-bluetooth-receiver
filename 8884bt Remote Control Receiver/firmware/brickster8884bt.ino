@@ -52,23 +52,23 @@
 #define uSecCyc 870
 
 // Motor control A
-#define mcPin1A 1 // tb6612fng
-#define mcPin2A 2 // tb6612fng
-#define pwmPinA 3 // tb6612fng
-//#define mcPin1A 9 // drv8833
-//#define mcPin2A 10 // drv8833
-//char pwmPinA = mcPin1A; // drv8833
+//#define mcPin1A 1 // tb6612fng
+//#define mcPin2A 2 // tb6612fng
+//#define pwmPinA 3 // tb6612fng
+#define mcPin1A 10 // drv8833
+#define mcPin2A 9 // drv8833
+char pwmPinA = mcPin1A; // drv8833
 #define maxA 28
 char levelA = 0;
 int pwmA = 0;
 
 // Motor control B
-#define mcPin1B 0 // tb6612fng
-#define mcPin2B 8 // tb6612fng
-#define pwmPinB 7 // tb6612fng
-//#define mcPin1B 7 // drv8833
-//#define mcPin2B 8 // drv8833
-//char pwmPinB = mcPin1B; // drv8833
+//#define mcPin1B 0 // tb6612fng
+//#define mcPin2B 8 // tb6612fng
+//#define pwmPinB 7 // tb6612fng
+#define mcPin1B 7 // drv8833
+#define mcPin2B 8 // drv8833
+char pwmPinB = mcPin1B; // drv8833
 #define maxB 28
 char levelB = 0;
 int pwmB = 0;
@@ -94,14 +94,16 @@ int pwmB = 0;
 // Combine Channel A command with Channel B command using logical OR
 
 // Software serial
-#define rxPin 10 // tb6612fng
-#define txPin 9 // tb6612fng
-//#define rxPin 0 // drv8833
-//#define txPin 1 // drv8833
+//#define rxPin 10 // tb6612fng
+//#define txPin 9 // tb6612fng
+#define rxPin 0 // drv8833
+#define txPin 1 // drv8833
 #define baudRate 9600
 SoftwareSerial softSerial(rxPin, txPin);
 
 // Miscellanious
+#define btResetPin 3
+#define btKeyPin 2
 char incomingByte = 0;
 char maskedByte = 0;
 char serialRateLimiter = 0;
@@ -147,6 +149,12 @@ void setup()
   // bitbanged PWM init
   pwmA = pwmLevels[min(abs(levelA), maxA)];
   pwmB = pwmLevels[min(abs(levelB), maxB)];
+  
+  // bluetooth control init
+  pinMode(btResetPin, OUTPUT);
+  pinMode(btKeyPin, OUTPUT);
+  digitalWrite(btResetPin, HIGH);
+  digitalWrite(btKeyPin, LOW);
 }
 
 
