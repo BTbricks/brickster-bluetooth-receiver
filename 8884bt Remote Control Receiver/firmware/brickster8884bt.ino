@@ -213,9 +213,9 @@ void loop()
     
     // set the pwm
     pwmA = pwmLevels[min(abs(levelA), maxA)];
-    //pwmPinA = levelA < 0 ? mcPin2A : mcPin1A; // drv8833
+    pwmPinA = levelA < 0 ? mcPin2A : mcPin1A; // drv8833
     pwmB = pwmLevels[min(abs(levelB), maxB)];
-    //pwmPinB = levelB < 0 ? mcPin2B : mcPin1B; // drv8833
+    pwmPinB = levelB < 0 ? mcPin2B : mcPin1B; // drv8833
     
     // rate limit
     serialRateLimiter = 8;
