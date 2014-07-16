@@ -313,9 +313,9 @@ void bitBangPwm(char thePwmPinA, int pwmA, char thePwmPinB, int pwmB)
     if (pwmA != pwmB)
     {
       delayMicroseconds(pwmB - pwmA);
-      // channelB off
-      digitalWrite(thePwmPinB, LOW);
     }
+    // channelB off
+    digitalWrite(thePwmPinB, LOW);
     // finish out the cycle
     if (pwmB < uSecCyc)
       delayMicroseconds(uSecCyc - pwmB);
@@ -333,9 +333,9 @@ void bitBangPwm(char thePwmPinA, int pwmA, char thePwmPinB, int pwmB)
     if (pwmA != pwmB)
     {
       delayMicroseconds(pwmA - pwmB);
-      // channelA off
-      digitalWrite(thePwmPinA, LOW);
     }
+    // channelA off
+    digitalWrite(thePwmPinA, LOW);
     // finish out the cycle
     if (pwmA < uSecCyc)
       delayMicroseconds(uSecCyc - pwmA);
