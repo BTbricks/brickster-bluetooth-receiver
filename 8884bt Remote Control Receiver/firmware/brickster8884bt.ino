@@ -175,7 +175,6 @@ void loop()
     {
       // select proper output
       char* levelX = incomingByte & 64 ? &levelB : &levelA;
-      int* pwmX = incomingByte & 64 ? &pwmB : &pwmA;
       if ((incomingByte & 63) < 29 || (incomingByte & 63) > 35)
       {
         // set the level
