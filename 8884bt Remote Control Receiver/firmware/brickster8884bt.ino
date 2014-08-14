@@ -196,7 +196,7 @@ void loop()
         digitalWrite(incomingByte & 64 ? mcPin2B : mcPin2A, HIGH);
       }
       // notify sender
-      softSerial.print(*levelX, DEC);
+      softSerial.write(*levelX);
     }
 
     // Combo output mode
@@ -211,7 +211,7 @@ void loop()
       // notify sender
       maskedByte = abs(levelB >> 2) + (levelB < 0 ? 8 : 0);
       maskedByte = (maskedByte << 4) + abs(levelA >> 2) + (levelA < 0 ? 8 : 0);
-      softSerial.print(maskedByte, DEC);
+      softSerial.write(maskedByte);
     }
     
     // set the pwm
