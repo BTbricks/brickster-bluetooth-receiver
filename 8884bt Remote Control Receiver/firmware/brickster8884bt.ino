@@ -98,12 +98,11 @@ int pwmB = 0;
 //#define txPin 9 // tb6612fng
 #define rxPin 0 // drv8833
 #define txPin 1 // drv8833
-#define baudRate 9600
+#define baudRate 57600
 SoftwareSerial softSerial(rxPin, txPin);
 
 // Miscellanious
 #define btResetPin 3
-#define btKeyPin 2
 char incomingByte = 0;
 char maskedByte = 0;
 char serialRateLimiter = 0;
@@ -127,8 +126,16 @@ void bitBangPwm(char, int, char, int);
 
 void setup()
 {
-  // serial init
-  softSerial.begin(baudRate);
+  // bluetooth control init
+  pinMode(btResetPin, OUTPUT);
+  digitalWrite(btResetPin, LOW);  // reset Bluetooth module
+  delay(3); // verified minimum   // hold long enough to register reset
+  digitalWrite(btResetPin, HIGH); // end Bluetooth reset
+  delay(515); // verified minumim // wait until Bluetooth module is ready
+  
+  // serial baudrate init
+  softSerial.begin(9600);
+  softSerial.print("AT+BAUD7");
   
   // channel A init
   pinMode(mcPin1A, OUTPUT);
@@ -150,11 +157,8 @@ void setup()
   pwmA = pwmLevels[min(abs(levelA), maxA)];
   pwmB = pwmLevels[min(abs(levelB), maxB)];
   
-  // bluetooth control init
-  pinMode(btResetPin, OUTPUT);
-  pinMode(btKeyPin, OUTPUT);
-  digitalWrite(btResetPin, HIGH);
-  digitalWrite(btKeyPin, LOW);
+  // serial init
+  softSerial.begin(baudRate);
 }
 
 
