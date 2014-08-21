@@ -98,7 +98,7 @@ int pwmB = 0;
 //#define txPin 9 // tb6612fng
 #define rxPin 0 // drv8833
 #define txPin 1 // drv8833
-#define baudRate 57600
+#define baudRate 9600
 SoftwareSerial softSerial(rxPin, txPin);
 
 // Miscellanious
@@ -132,10 +132,6 @@ void setup()
   delay(3); // verified minimum   // hold long enough to register reset
   digitalWrite(btResetPin, HIGH); // end Bluetooth reset
   delay(515); // verified minumim // wait until Bluetooth module is ready
-  
-  // serial baudrate init
-  softSerial.begin(9600);
-  softSerial.print("AT+BAUD7");
   
   // channel A init
   pinMode(mcPin1A, OUTPUT);
