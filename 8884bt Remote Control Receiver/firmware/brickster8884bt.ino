@@ -128,10 +128,9 @@ void setup()
 {
   // bluetooth control init
   pinMode(btResetPin, OUTPUT);
-  digitalWrite(btResetPin, LOW);  // reset Bluetooth module
-  delay(3); // verified minimum   // hold long enough to register reset
-  digitalWrite(btResetPin, HIGH); // end Bluetooth reset
-  delay(515); // verified minumim // wait until Bluetooth module is ready
+  // digitalWrite(btResetPin, LOW);  // reset Bluetooth module
+  // delay(3); // verified minimum   // hold long enough to register reset
+  // digitalWrite(btResetPin, HIGH); // end Bluetooth reset
   
   // channel A init
   pinMode(mcPin1A, OUTPUT);
