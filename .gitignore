@@ -25,3 +25,6 @@ local.properties
 *.b#[0-9]*
 *.l#[0-9]*
 eagle.epf
+
+# OSX Hidden Files
+.DS_Store
